@@ -50,3 +50,5 @@ echo "alias pip='python3.11 -m pip'" >> ~/.bashrc
 end_time=$SECONDS
 elapsed=$(( end_time - start_time ))
 echo "스크립트 실행 시간: $(( elapsed / 60 ))분 $(( elapsed % 60 ))초"
+
+#pip install openai==0.28
